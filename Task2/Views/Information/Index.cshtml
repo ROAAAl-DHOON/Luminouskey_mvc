@@ -1,0 +1,41 @@
+﻿@model Task2.Models.Information
+@{
+    ViewBag.Title = "Student Information";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Student Information</h2>
+<table border="2" cellpadding="10" style="border-collapse: collapse;">
+    <tr>
+        <th>Name</th>
+        <td>@Model.Name</td>
+    </tr>
+    <tr>
+        <th>Summary</th>
+        <td>@Model.Summary</td>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td>@Model.Email</td>
+    </tr>
+    <tr>
+        <th>Phone Number</th>
+        <td>@Model.phone_number</td>
+    </tr>
+    <tr>
+        <th>Education</th>
+        <td>@Model.Education</td>
+    </tr>
+    <tr>
+        <th>Skills</th>
+        <td>@Model.Skills</td>
+    </tr>
+    <tr>
+        <th>Projects</th>
+        <td>@Model.Projects</td>
+    </tr>
+    <tr>
+        <th>Languages</th>
+        <td>@Model.Languages</td>
+    </tr>
+</table>
